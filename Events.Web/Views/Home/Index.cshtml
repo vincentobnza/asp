@@ -1,0 +1,16 @@
+﻿@model Events.Web.Models.UpcomingPassedEventsViewModel
+<link rel="stylesheet" href="~/Content/Styles.css"/>
+
+@{
+    ViewBag.Title = "Public Events";
+}
+
+@Html.Partial("_Events")
+
+@section scripts {
+    @Scripts.Render("~/bundles/ajax")
+}
+<div class="jumbotron">
+    <h1>Events</h1>
+    <p>View and look for events today.</p>
+</div>

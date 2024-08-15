@@ -1,0 +1,31 @@
+﻿
+.event-group-heading {
+    background-color: white !important;
+
+}
+
+
+.event-box {
+    width: 100%;
+    border: 1px solid #e0e0e0 !important;
+    background-color: white !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px !important;
+    word-wrap: break-word;
+}
+
+.btn-view{
+    display: flex !important;
+    margin-top: 20px !important;
+
+    color: #fff !important;
+}
+
+
+.jumbotron {
+    color: #fff !important;
+    background-color: #ff006e !important;
+    border-radius: 20px !important;
+}
+
